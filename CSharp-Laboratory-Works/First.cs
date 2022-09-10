@@ -7,19 +7,15 @@ public interface IFirst
 
 public class First : IFirst
 {
-    public First()
-    {
-    }
-
     public void FirstTask()
     {
         double y = 0, a = 0, x = 0, b = 0, z = 0, fi = 0;
         Console.WriteLine("Введите a:");
-        a = int.Parse(Console.ReadLine()!);
+        a = double.Parse(Console.ReadLine()!);
         Console.WriteLine("Введите b:");
-        b = int.Parse(Console.ReadLine()!);
+        b = double.Parse(Console.ReadLine()!);
         Console.WriteLine("Введите z:");
-        z = int.Parse(Console.ReadLine()!);
+        z = double.Parse(Console.ReadLine()!);
 
         Console.WriteLine("Введите число от 1 до 3 для выбора 1 из функций (2x, x^2, x/3)");
         var variant = int.Parse(Console.ReadLine()!);
@@ -60,7 +56,7 @@ public class First : IFirst
 
         //Выбор функции
 
-        y = 2 / 3 * a * Math.Pow(Math.Sin(x), 2) - 3 * b / 4 * Math.Pow(Math.Cos(fi), 2);
+        y = 0.66f * a * Math.Pow(Math.Sin(x), 2) - 3 * b / 4 * Math.Pow(Math.Cos(fi), 2);
         Console.WriteLine($"y = {y}");
     }
 }
