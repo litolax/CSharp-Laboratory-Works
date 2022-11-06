@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursive", "Recursive\Recu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FifthLaboratory", "FifthLaboratory\FifthLaboratory.csproj", "{DB57422E-8A3B-4E67-8E92-75C0E3EA6307}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SixthLaboratory", "SixthLaboratory\SixthLaboratory.csproj", "{3D68AE5A-58DE-49EF-80F5-F491DC6C46D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeventhLaboratory", "SeventhLaboratory\SeventhLaboratory.csproj", "{F210D477-1E25-4682-B301-200C9DD077D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{DB57422E-8A3B-4E67-8E92-75C0E3EA6307}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB57422E-8A3B-4E67-8E92-75C0E3EA6307}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB57422E-8A3B-4E67-8E92-75C0E3EA6307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D68AE5A-58DE-49EF-80F5-F491DC6C46D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D68AE5A-58DE-49EF-80F5-F491DC6C46D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D68AE5A-58DE-49EF-80F5-F491DC6C46D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D68AE5A-58DE-49EF-80F5-F491DC6C46D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F210D477-1E25-4682-B301-200C9DD077D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F210D477-1E25-4682-B301-200C9DD077D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F210D477-1E25-4682-B301-200C9DD077D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F210D477-1E25-4682-B301-200C9DD077D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
